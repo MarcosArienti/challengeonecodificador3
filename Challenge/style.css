@@ -1,0 +1,106 @@
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50;
+}
+
+header{
+    display: relative;
+    padding: 20px;
+}
+
+body{
+    background: #E9ECF8;
+}
+
+section{
+    display: inline-block;
+}
+
+.input-texto{
+    width: 900px;
+    height: 580px;
+    left: 800px;
+    top: 40px;
+    background-color:  #E9ECF8;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.Encriptar{
+    position: relative;
+    height: 67px;
+    width: 328px;
+    left: 100px;
+    top: 15px;
+    border-radius: 24px;
+    padding: 24px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Encriptar:hover{
+    transform: scale(1.1);
+}
+
+.Desencriptar{
+    position: relative;
+    height: 67px;
+    width: 328px;
+    left: 120px;
+    top: 15px;
+    border-radius: 24px;
+    padding: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Desencriptar:hover{
+    transform: scale(1.1);
+}
+
+.mensaje{
+    position: relative;
+    height: 720px;
+    width: 400px;
+    left: 10px;
+    top: 0px;
+    border-radius: 32px;
+    background-image: url(images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+.copiar{
+    position: relative;
+    height: 67px;
+    width: 328px;
+    left: 50px;
+    top: -125px;
+    border-radius: 24px;
+    padding: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    transform: scale(1.1);
+}
+
